@@ -1,7 +1,7 @@
 
-//import com.sun.jdi.PathSearchingVirtualMachine;
 
-public class Search_Element_Array {
+
+public class Q02_Search_Element_Array {
   static int searchElement(int arr[],int target){
     int size = arr.length;
     for(int i = 0 ;i<size;i++){
