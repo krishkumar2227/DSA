@@ -5,7 +5,6 @@ public class Q07_Swap_Alternate_Element {
       arr[i]=arr[i+1];
       arr[i+1]=temp;
     }
-    
   }
   public static void main(String[] args) {
     int arr[]={1,2,3,4,5,6};
