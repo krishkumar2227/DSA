@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class Highest_Lowest_Frequency_Element {
+public class Q12_Highest_Lowest_Frequency_Element {
   static int[] getHighLowFreq(int arr[]){
     HashMap<Integer,Integer> freq = new HashMap<>();
     for(int num:arr){
