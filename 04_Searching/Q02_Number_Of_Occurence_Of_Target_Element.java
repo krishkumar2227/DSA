@@ -1,6 +1,6 @@
 //package 04_Searching;
 
-public class Number_Of_Occurence_Of_Target_Element {
+public class Q02_Number_Of_Occurence_Of_Target_Element {
   static int getLowerBound(int arr[],int target){
     int n = arr.length;
     int s=0;
