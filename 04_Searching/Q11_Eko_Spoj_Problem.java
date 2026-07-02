@@ -9,10 +9,10 @@ public class Q11_Eko_Spoj_Problem {
         sum=sum+ans;
       }
      }
-     if(sum>=mid){
-      return true;
-     }else{
-      return false;
+      if(sum>=mid){
+        return true;
+      }else{
+        return false;
      }
   }
   static int maxheight(int[] trees,int m){
