@@ -3,7 +3,7 @@ public class Q13_Combination_Sum2 {
   public static void solve(int []candidates,int target,int index,List<List<Integer>>ans,List<Integer>output){
     if(target==0){
       ans.add(new ArrayList<>(output));
-      return ;
+      return;
     }
     if(index>=candidates.length){
        return;
