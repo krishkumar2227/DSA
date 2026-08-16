@@ -8,12 +8,12 @@ public class Q20_Merge_Sort {
 
     int k = s;
     for(int i =0;i<leftArrLen;i++){
-      leftArr[i]=arr[s+i];
+      leftArr[i]=arr[k];
       k++;
     }
     k = mid+1;
     for(int j =0;j<rightArrLen;j++){
-      rightArr[j]=arr[mid+1+j];
+      rightArr[j]=arr[k];
       k++;
     }
     int i =0;
