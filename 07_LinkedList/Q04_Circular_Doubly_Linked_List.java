@@ -32,5 +32,12 @@ public class Q04_Circular_Doubly_Linked_List{
      newNode.next=head;
      newNode.prev=tail;
   }
-}
+ }
+ public void insertAtTail(int data){
+  Node newNode=new Node(data);
+  if(head==null){
+    head=newNode;
+    tail=newNode;
+  }
+ }
 }
