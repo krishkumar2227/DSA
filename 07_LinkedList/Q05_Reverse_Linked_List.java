@@ -52,9 +52,8 @@ public class Q05_Reverse_Linked_List {
 
         System.out.println("Original List:");
         printList(head);
-
+        
         head = reverseList(head);
-
         System.out.println("Reversed List:");
         printList(head);
     }
