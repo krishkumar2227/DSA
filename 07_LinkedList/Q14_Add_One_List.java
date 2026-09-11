@@ -1,10 +1,8 @@
 public class Q14_Add_One_List {
-
     // Node class
     static class Node {
         int data;
         Node next;
-
         Node(int data) {
             this.data = data;
             this.next = null;
